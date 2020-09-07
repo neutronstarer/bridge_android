@@ -291,6 +291,7 @@
                 bytes = new byte[inputStream.available()];
                 inputStream.read(bytes);
                 String js = new String(bytes);
+                js = js.replaceAll("<name>", name);
                 evaluate.invoke(js, null);
              } catch (IOException e) {
                 e.printStackTrace();
