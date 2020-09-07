@@ -1,0 +1,3 @@
+include ':bridgeandroid'
+include ':app'
+rootProject.name = "Bridgeandroid"
