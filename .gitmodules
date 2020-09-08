@@ -1,3 +1,3 @@
 [submodule "bridgejs"]
 	path = bridgejs
-	url = git@github.com:neutronstarer/bridge_js.git
+url=https://github.com/neutronstarer/bridge_js.git
